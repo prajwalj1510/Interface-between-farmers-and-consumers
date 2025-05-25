@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Fresh Needs</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+        *{
+            font-family: Poppins;
+        }
+
+        body{
+            background: rgb(131,58,180);
+            background: linear-gradient(155deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        }
+
+        .products{
+            margin-left:1cm;
+            margin-right:1cm;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .item{
+            margin:1.5cm;
+            width:fit-content;
+            height:auto;
+            box-shadow: 0px 0px 5px 5px darkgray;
+            transition: all 0.3s ease-in-out; 
+        }
+
+        .item:hover{
+            box-shadow: 0px 0px 10px 5px lightseagreen;
+            -ms-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+        }
+
+        button{
+            margin-top:7px;
+            margin-left: 24px;
+            margin-bottom: 20px;
+            border-radius: 30px;
+            border:2px solid black;
+            font-size:16px;
+            color:darkblue;
+        }
+
+        button:hover{
+            background-color: darkolivegreen;
+            color:bisque;
+            border:none;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 75px;
+            background: linear-gradient(to bottom right , orange 40% , red 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="dash.html"><ion-icon name="arrow-back-circle-outline" style = "font-size: 40px;"></ion-icon></a>
+    <center><h1>Fresh Needs</h1></center> <br><br>
+
+    <div class="products">
+        <div class="item">
+            <div class="image">
+                <a href="freshmango.html"><img src="freshmango.jpg" alt="" width = "150" height = "150"></a>
+                <div class="text">
+                    <center><span class = "s1">Fresh Mango</span></center>
+                    <center><span class="s1">Price : <i class="fa fa-inr" style="font-size:16px"></i> 100/- Kg</span></center> 
+                    <button type = "button">Add to Cart</button> 
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <a href="freshorange.html"><img src="freshorange.jpg" alt="" width = "150" height = "150"></a>
+                <div class="text">
+                    <center><span class = "s1">Fresh Orange</span></center>
+                    <center><span class="s1">Price : <i class="fa fa-inr" style="font-size:16px"></i> 80/- Kg</span></center>
+                    <button type = "button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <a href="freshapple.html"><img src="freshapple.jpg" alt="" width = "150" height = "150"></a>
+                <div class="text">
+                    <center><span class = "s1">Fresh Apple</span></center>
+                    <center><span class="s1">Price : <i class="fa fa-inr" style="font-size:16px"></i> 70/- Kg</span></center>
+                    <button type = "button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <a href="freshgrapes.html"><img src="freshgrapes.jpg" alt="" width = "150" height = "150"></a>
+                <div class="text">
+                    <center><span class = "s1">Fresh Grapes</span></center>
+                    <center><span class="s1">Price : <i class="fa fa-inr" style="font-size:16px"></i> 50/- Kg</span></center>
+                    <button type = "button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <a href="freshlemon.html"><img src="freshlemon.jpg" alt="" width = "150" height = "150"></a>
+                <div class="text">
+                    <center><span class = "s1">Fresh Lemons</span></center>
+                    <center><span class="s1">Price : <i class="fa fa-inr" style="font-size:16px"></i> 30/- 6 pc</span></center>
+                    <button type = "button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <a href="freshbeans.html"><img src="freshbeans.jpg" alt="" width = "150" height = "150"></a>
+                <div class="text">
+                    <center><span class = "s1">Fresh Beans</span></center>
+                    <center><span class="s1">Price : <i class="fa fa-inr" style="font-size:16px"></i> 40/- Kg</span></center>
+                    <button type = "button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <a href="freshpalak.html"><img src="freshpalak.jpg" alt="" width = "150" height = "150"></a>
+                <div class="text">
+                    <center><span class = "s1">Fresh Palak</span></center>
+                    <center><span class="s1">Price : <i class="fa fa-inr" style="font-size:16px"></i> 30 /- Bch</span></center>
+                    <button type = "button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <a href="freshwatermelon.html"><img src="freshwatermelon.jpg" alt="" width = "150" height = "150"></a>
+                <div class="text">
+                    <center><span class = "s1">Fresh Watermelon</span></center>
+                    <center><span class="s1">Price : <i class="fa fa-inr" style="font-size:16px"></i> 200/- Kg</span></center>
+                    <button type = "button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <a href="freshmuskmelon.html"><img src="freshmuskmelon.jpg" alt="" width = "150" height = "150"></a>
+                <div class="text">
+                    <center><span class = "s1">Fresh Muskmelon</span></center>
+                    <center><span class="s1">Price : <i class="fa fa-inr" style="font-size:16px"></i> 80/- Kg</span></center>
+                    <button type = "button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <a href="freshfinger.html"><img src="freshfinger.jpg" alt="" width = "150" height = "150"></a>
+                <div class="text">
+                    <center><span class = "s1">Fresh Ladiesfinger</span></center>
+                    <center><span class="s1">Price : <i class="fa fa-inr" style="font-size:16px"></i> 40/- Kg</span></center>
+                    <button type = "button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+
+</body>
+</html>

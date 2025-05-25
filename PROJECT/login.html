@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <script src = "sa.js"></script>
+        <style>
+            body{
+                background-image: url('bg-01.jpg');
+                background-repeat: no-repeat;
+                background-size:cover;
+            }
+            
+            h{
+                font-size: 72px;
+                font-family: monospace;
+                font-style: italic;
+                background: linear-gradient(to bottom, yellow 50%, red 70%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .form,.span{
+                font-family: Poppins ;
+            }
+            
+            .span{
+                font-size:xx-large;
+            }
+
+            /*.one,h{
+                width:fit-content ;
+                min-width: 10%;
+                max-width: max-content;
+                height: fit-content;
+                min-height: 10%;
+                max-height: max-content;
+            } */
+
+            .two{
+                padding-left: 450px;
+                padding-right: 450px;
+            }
+
+            .three{
+                padding-top: 20px;
+                padding-left: 10px ;
+                border: 2px solid black;
+                background-color: white;
+                border-radius: 30px;
+                box-sizing: border-box;
+                padding-bottom: 50px;
+            }
+
+            input{
+                min-width: min-content ;
+            }
+
+            #username,#password{
+                border: none;
+                font-family: Poppins ;
+            }
+
+            .five,.six{
+                border:none;
+                border-bottom: 2px solid rgb(160, 143, 143)
+            }
+
+            .in{
+                width: 30%;
+                border-radius: 30px;
+                border: 1px solid darkblue;
+                padding: 5px;
+                background-color: lightgray;
+            }
+
+            .in:hover{
+                border-color:mediumblue;
+                background-color: orange;
+                color: darkblue;
+            }
+            
+            @media screen and (max-width:1200px) and (min-width :1125px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	padding-left:410px;
+                    padding-right:410px;
+                }
+                
+                .form .span{
+                	font-size:34px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                }
+            @media screen and (max-width:1125px) and (min-width :1050px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	padding-left:380px;
+                    padding-right:380px;
+                }
+                
+                .form .span{
+                	font-size:34px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                }
+            @media screen and (max-width:1050px) and (min-width :994px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	padding-left:330px;
+                    padding-right:330px;
+                }
+                
+                .form .span{
+                	font-size:32px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                }
+             @media screen and (max-width:994px) and (min-width :920px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	padding-left:280px;
+                    padding-right:280px;
+                }
+                
+                .form .span{
+                	font-size:29px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+             @media screen and (max-width:920px) and (min-width :820px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	padding-left:240px;
+                    padding-right:240px;
+                }
+                
+                .form .span{
+                	font-size:26px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+             @media screen and (max-width:820px) and (min-width :790px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	padding-left:200px;
+                    padding-right:200px;
+                }
+                
+                .form .span{
+                	font-size:24px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+             @media screen and (max-width:790px) and (min-width :670px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	padding-left:180px;
+                    padding-right:180px;
+                }
+                
+                .form .span{
+                	font-size:22px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+             @media screen and (max-width:669px) and (min-width :560px)
+            {
+            	.one h{
+                	font-size:60px;
+                }
+                
+                .one .two{
+                	
+                	padding-left:150px;
+                    padding-right:150px;
+                }
+                
+                .form .span{
+                	font-size:20px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+             @media screen and (max-width:559px) and (min-width :507px)
+            {
+            	.one h{
+                	font-size:40px;
+                }
+                
+                .one .two{
+                	
+                	padding-left:120px;
+                    padding-right:120px;
+                }
+                
+                .form .span{
+                	font-size:19px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+                
+             @media screen and (max-width:508px) and (min-width :442px)
+            {
+            	.one h{
+                	font-size:22px;
+                }
+                
+                .one .two{
+                	
+                	padding-left:100px;
+                    padding-right:100px;
+                }
+                
+                .form .span{
+                	font-size:18px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+                
+                        @media screen and (max-width:443px) and (min-width :330px)
+            {
+            	.one h{
+                	font-size:40px;
+                }
+                
+                .one .two{
+                	
+                	padding-left:60px;
+                    padding-right:60px;
+                }
+                
+                .form .span{
+                	font-size:18px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+              
+            }
+
+
+        </style>
+    </head>
+    <body>
+        
+        <div class = "one">
+            <center><h> Rural Karnataka</h></center>
+            <br><br>
+            <div class = "two">
+                
+                <div class = "three">
+                    
+                    <form class = "form" method = "post">
+                    <center><span class = "span">Sign Up</span></center>
+                    
+                    <div class = "four">
+                        <label for = "username" class = "name"><span style = "font-size:20px" class = "s1" >Username</span></label> <br>
+                        <div class = "five">
+                        <i class="fa fa-user-circle-o" style = "font-size:20px;"></i>
+                        <input type = "text" id = "username" placeholder = " Type your Username " required>
+                        </div>
+                        <br><br>
+                    </div>
+
+                    <div class = "six">
+                        <label for = "password"><span style = "font-size:20px">Password</span></label> <br>
+                        <div class = "seven">
+                        <i class="glyphicon glyphicon-eye-close" style = "font-size:20px;"></i>
+                        <input type = "password" id = "password"placeholder=" Type your Password" required>
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class = "eight">
+                        <center><input type = "button" value = "Login" class = "in" onclick = "check()"></a></center>
+                    </div>
+                    <br><br>
+
+                    <div class = "nine">
+                        <center><a href = "fp.html">Forgot Password ? </a></center>
+                    </div>
+                    <br><br>
+
+                    <div class = "ten">
+                        <center>Don't Have Account ? <a href = "ca.html">Click Here !</a></center>
+                    </div>
+
+                    </form>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </body>
+</html>
