@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cart Details</title>
+    <script src = "sa.js"></script>
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+    *{
+        font-family: Poppins;
+    }
+
+    body{
+        background: rgb(250,62,0);
+background: linear-gradient(0deg, rgba(250,62,0,1) 0%, rgba(255,235,0,1) 83%);
+    }
+
+
+        .box{
+            border:1px solid ;
+            margin-top:3cm;
+            margin-left:350px;
+            margin-right: 350px;
+            width: 15cm;
+            height:26cm;
+            border-radius: 50px;
+        }
+
+        .product1{
+
+            margin:10px;
+            height:4cm;
+        }
+
+        .image{
+            float:left;
+            clear:both;
+            display: inline-flex;
+        }
+
+        .content{
+            margin-left:2px;
+            margin-bottom:0;
+            display: inline-flex;
+            width:430px;
+        }
+
+        .desc{
+            float:left;
+            margin-left:1cm;
+            margin-bottom: 0;
+        }
+
+        .h{
+            
+            font-size: 30px;
+        }
+
+        .p{
+            margin-top:2px;
+        }
+
+        .container{
+            margin-left:1cm;
+        }
+
+        button{
+            border-radius: 30px;
+            font-size: 20px;
+            float: right;
+            margin-right:20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <center><h1>Product Details</h1></center>
+        <div class="product1">
+            <div class="image">
+                <a href="#"><img src="onion.jpg" alt="not available" width = "150" height = "150"></a>
+                <div class="content">
+                    <pre class = "p">    <span class="h">Pack of Onions</span>
+                    <span class = "desc">Rs.29/- Kg</span><br> 
+                    <span class="desc">Discount : 5% !!!</span>     <div class="container"><input type="button" onclick="decrementValue()" value="-" /><input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" /><input type="button" onclick="incrementValue()" value="+" /></div>
+                    </pre> 
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="product1">
+            <div class="image">
+                <a href="#"><img src="freshgrapes.jpg" alt="not available" width = "150" height = "150"></a>
+                <div class="content">
+                    <pre class = "p">    <span class="h">Bunch of Grapes</span>
+                    <span class = "desc">Rs.50/- Kg</span><br> 
+                    <span class="desc">Discount : 5% !!!</span>     <div class="container"><input type="button" onclick="decrementValue()" value="-" /><input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" /><input type="button" onclick="incrementValue()" value="+" /></div>
+                    </pre> 
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="product1">
+            <div class="image">
+                <a href="#"><img src="lackqwale works.jpg" alt="not available" width = "150" height = "150"></a>
+                <div class="content">
+                    <pre class = "p">    <span class="h">Bunch of lackqwale</span>
+                    <span class = "desc">Rs.1500/- PC</span><br> 
+                    <span class="desc">Discount : 5% !!!</span>     <div class="container"><input type="button" onclick="decrementValue()" value="-" /><input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" /><input type="button" onclick="incrementValue()" value="+" /></div>
+                    </pre> 
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="product1">
+            <div class="image">
+                <a href="#"><img src="dairyicecream.jpg" alt="not available" width = "150" height = "150"></a>
+                <div class="content">
+                    <pre class = "p">    <span class="h">Ice Cream</span>
+                    <span class = "desc">Rs.25/- PKT</span><br> 
+                    <span class="desc">Discount : 5% !!!</span>     <div class="container"><input type="button" onclick="decrementValue()" value="-" /><input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" /><input type="button" onclick="incrementValue()" value="+" /></div>
+                    </pre> 
+                </div>
+            </div>
+        </div>
+
+        <button type = "submit" value = "Check Out"> Check Out</button>
+
+    </div>
+</body>
+</html>

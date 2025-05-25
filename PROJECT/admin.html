@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Sign AS</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+        body{
+            background-image: url('Instagram.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h{
+            font-size: 30px;
+            font-family:Poppins;
+        }
+        
+        .one{
+            margin-top: 6cm;
+            background-color: white;
+            border-radius: 30px;
+            border: 1px solid black;
+            margin-left:450px;
+            margin-right:400px;
+            padding-bottom:50px;
+        }
+
+        .two{
+            margin-left: 2cm;
+            border: none;
+            width:30%;
+            text-align:center;
+            float:left;
+            clear: left;
+            border-radius: 10px;
+            background-color: #00C9A7;
+        }
+
+        .three{
+            border: none ;
+            text-align: center;
+            margin-right:2cm;
+            width:30%;
+            float:right;
+            border-radius: 10px;
+            background-color: #00C9A7;
+        }
+
+
+        .button{
+            border:none;
+            background-color: transparent;
+            padding:10px;
+            color:white;
+        }
+
+        .button:hover,.two:hover,.three:hover{
+            background-color: #00FF21;
+            border-radius: 10px;
+        }
+
+        a{
+            text-decoration: none;
+            color: darkblue;
+        }
+
+        .form{
+            font-family: Poppins;
+        }
+
+        @media screen and (max-width:1200px){
+        	.one{
+                margin:100px;
+                width: 70%;
+            }
+        }
+        
+        @media screen and (max-width:580px)
+        {
+        	.one{
+            	margin:20px;
+                
+            }
+            
+            .one .two , .one .three {
+            		margin:10px;
+            }
+            
+        }
+        
+        @media screen and (max-width:570px)
+        {
+        	.one{
+            	margin:0.3mm;
+            }
+            
+            .one .two , .one .three{
+            	width:fit-content;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class = "one">
+        <form class = "form">
+        <br>
+        <center><h>Login As</h></center>
+        <br><br>
+
+        <div class = "two">
+            <button type = "button" class = "button"><a href = "login.html">FARMER</a></button>
+        </div>
+
+        <div class = "three">
+            <button type = "button" class = "button"><a href = "login.html">CONSUMER</a></button></button>
+        </div>
+        <br><br><br>
+
+        <div class = "four">
+            <center>Don't have Account ? <a href = "ca.html">Click Here !</a></center>
+        </div>
+        </form>
+
+    </div>
+</body>
+</html>

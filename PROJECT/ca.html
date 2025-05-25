@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Create Account </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <script src = "sa.js"></script>
+        <style>
+            body{
+                background-image: url('Timber.jpg');
+                background-size: cover;
+            }
+
+            .two{
+                background-color: white;
+                border: 1px solid white;
+                border-radius:30px;
+                margin-left:450px;
+                margin-right:440px;
+                padding-bottom: 50px;
+            }
+
+
+            .four,.six,.eight,.ten,.twelve,.fourteen,.num,.type{
+                margin-left: 15px;
+                border:none ; 
+            }
+
+            #fn,#ln,#date,#email,#password,#cpassword,#number,#ty{
+                border:none;
+                border-bottom:1px solid grey;
+            }
+
+            .span{ 
+                font-size:large;
+            }
+
+            .form{
+                font-family: Poppins;
+            }
+
+            .button{
+                width: 30%;
+                border: 1px solid ;
+                border-radius: 30px;
+                padding: 5px;
+            }
+
+            @media screen and (max-width:1150px) and (min-width :1050px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	margin-left:410px;
+                    margin-right:410px;
+                }
+                
+                .form .span{
+                	font-size:34px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                }
+            @media screen and (max-width:1050px) and (min-width :950px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	margin-left:380px;
+                    margin-right:380px;
+                }
+                
+                .form .span{
+                	font-size:34px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                }
+            @media screen and (max-width:950px) and (min-width :850px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	margin-left:330px;
+                    margin-right:330px;
+                }
+                
+                .form .span{
+                	font-size:32px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                }
+             @media screen and (max-width:850px) and (min-width :750px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	margin-left:280px;
+                    margin-right:280px;
+                }
+                
+                .form .span{
+                	font-size:29px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+             @media screen and (max-width:750px) and (min-width :650px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	margin-left:240px;
+                    margin-right:240px;
+                }
+                
+                .form .span{
+                	font-size:26px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+             @media screen and (max-width:650px) and (min-width :620px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	margin-left:200px;
+                    margin-right:200px;
+                }
+                
+                .form .span{
+                	font-size:24px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+             @media screen and (max-width:620px) and (min-width :560px)
+            {
+            	.one h{
+                	font-size:80px;
+                }
+                
+                .one .two{
+                	
+                	margin-left:150px;
+                    margin-right:150px;
+                }
+                
+                .form .span{
+                	font-size:22px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+             @media screen and (max-width:560px) and (min-width :500px)
+            {
+            	.one h{
+                	font-size:60px;
+                }
+                
+                .one .two{
+                	
+                	margin-left:120px;
+                    margin-right:120px;
+                }
+                
+                .form .span{
+                	font-size:20px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+             @media screen and (max-width:500px) and (min-width :440px)
+            {
+            	.one h{
+                	font-size:40px;
+                }
+                
+                .one .two{
+                	
+                	margin-left:100px;
+                    margin-right:100px;
+                }
+                
+                .form .span{
+                	font-size:19px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+                
+             @media screen and (max-width:440px) and (min-width :370px)
+            {
+            	.one h{
+                	font-size:22px;
+                }
+                
+                .one .two{
+                	
+                	margin-left:80px;
+                    margin-right:80px;
+                }
+                
+                .form .span{
+                	font-size:18px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+                
+                @media screen and (max-width:370px) and (min-width :330px)
+            {
+            	.one h{
+                	font-size:22px;
+                }
+                
+                .one .two{
+                	
+                	margin-left:60px;
+                    margin-right:60px;
+                }
+                
+                .form .span{
+                	font-size:18px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+                
+                @media screen and (max-width:330px) and (min-width :300px)
+            {
+            	.one h{
+                	font-size:22px;
+                }
+                
+                .one .two{
+                	
+                	margin-left:40px;
+                    margin-right:40px;
+                }
+                
+                .form .span{
+                	font-size:18px;
+                }
+                
+              
+              	#username,#password{
+                	width:0.1em;
+                }
+                
+                
+                }
+
+        </style>
+    </head>
+    <body>
+        <div class = "one">
+            <div class = "two">
+                <form action = "login.html" class = "form">
+                
+                    <div class = "three">
+                    <center><span class = "span">Account Creation</span></center>
+                    </div>
+                    <br>
+
+                    <div class = "four">
+                        <label for = "fn">First Name </label> <br>
+                        <div class = "five">
+                            <i class="fa fa-user-circle-o" style = "font-size:20px;"></i>
+                            <input type = "text" id = "fn" placeholder = " Type your First Name " required>
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class = "six">
+                        <label for = "ln">Last Name </label> <br>
+                        <div class = "seven">
+                            <i class="fa fa-user-circle-o" style = "font-size:20px;"></i>
+                            <input type = "text" id = "ln" placeholder = " Type your Last Name ">
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class = "eight">
+                        <label for = "date">Date of Birth</label> <br>
+                        <div class = "nine">
+                            <i class="fa fa-clock-o" style = "font-size:24px;"></i>
+                            <input type = "date" id="date" required>
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class = "ten">
+                        <label for = "email">Email</label> <br>
+                        <div class = "eleven">
+                            <i class="fa fa-envelope" style = "font-size: 24px;"></i>
+                            <input type = "email" id = "email" placeholder="example@domain.com" required>
+                        </div>
+                    </div>  
+                    <br><br>
+                    
+                    <div class = "num">
+                        <label for = "number">Mob. No</label> <br>
+                        <div class = "n1">
+                            <i class="fa fa-mobile-phone" style="font-size:36px"></i>
+                            <input type = "numeric" id = "number"  placeholder=" Type your Mobile No" required>
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class = "type">
+                        <label for = "ty">User Type</label> <br>
+                        <div class = "t1">
+                            <i class="fa fa-group" style="font-size:24px"></i>
+                            <input type = "ty" id = "ty" required list = "l1" placeholder="FARMER or CONSUMER" required>
+                            <datalist id = "l1">
+                                <option value = "default" selected>none</option>
+                                <option value = "FARMER" >FARMER</option>
+                                <option value = "CONSUMER">CONSUMER</option>
+                            </datalist>
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class = "twelve">
+                        <label for = "password"> Password </label> <br>
+                        <div class = "thirteen">
+                            <i class="glyphicon glyphicon-eye-close" style = "font-size:20px;"></i>
+                            <input type = "password" id = "password"  placeholder="Type your Password" required>
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class = "fourteen">
+                        <label for = "cpassword"> Confirm Password </label> <br>
+                        <div class = "fifteen">
+                            <i class="glyphicon glyphicon-eye-close" style = "font-size:20px;"></i>
+                            <input type = "password" id = "cpassword" placeholder="Type your Password" required>
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class = "sixteen">
+                        <center><button class = "button">SUBMIT</button></center>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
