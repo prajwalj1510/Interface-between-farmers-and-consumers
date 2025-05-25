@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>User Details</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        *{
+            font-family: Poppins;
+            font-style:italic;
+        }
+        .outside{
+            border:1px solid;
+            margin-top:2cm;
+            margin-left:300px;
+            margin-right:300px;
+            border-radius:30px;
+        }
+
+        .details{
+            margin-left:1cm;
+        }
+
+        img{
+            border-radius: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="dash.html"><ion-icon name="arrow-back-circle-outline" style = "font-size: 40px;"></ion-icon></a>
+    <center><h1>User Details</h1></center>
+
+    <div class="outside">
+        <div class="details">
+            <br><br>
+            
+            <center><img src = "img_avatar.jpg" width = "150" height = "150"></center>
+            
+            <br><br>
+            <span class = "s1">First Name : &emsp;</span>
+            <input type = "text" id = "text" value = "admin"> <br><br>
+
+            <span class = "s1">Last Name : &emsp;</span>
+            <input type = "text" id = "text" value = ""> <br><br>
+
+            <span class = "s1">Date of birth : &nbsp;</span>
+            <input type = "date" id = "text" value = "12/9/2002"> <br><br>
+
+            <span class = "s1">Email Id : &emsp;&emsp;</span>
+            <input type = "text" id = "text" value = "admin"> <br><br>
+
+            <span class = "s1">Mobile No. : &emsp;</span>
+            <input type = "text" id = "text" value = "+91 9127401682"> <br><br>
+
+            <span class = "s1">User Type : &emsp;</span>
+            <input type = "text" id = "text" value = "FARMER"> <br><br>
+        
+            <span class = "s1">Password : &emsp;</span>
+            <input type = "password" id = "text" value = "12345"> <br><br>
+        </div>
+    </div>
+</body>
+</html>
